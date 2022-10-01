@@ -1,0 +1,69 @@
+### FIGURE
+figure.facecolor: e5e5e5
+figure.dpi: 240
+figure.titlesize: 18
+figure.titleweight: bold
+figure.figsize : 12, 8
+#altera a largura entre um plot e outro
+figure.subplot.hspace: 0.15 
+
+
+### LINES
+lines.linewidth: 1.5
+
+### Legenda
+legend.fontsize: 12
+
+### Ajustando as etiquetas
+xtick.direction: in
+ytick.direction: in
+xtick.color : black
+ytick.color : black
+ytick.right : True
+xtick.top : True
+xtick.labelsize: 12
+ytick.labelsize: 12
+
+### Ajustando as fontes
+font.family: cursive
+font.serif: Times News Roman
+font.weight: bold
+font.size: 12
+
+### Ajustando os eixos
+
+axes.grid : True
+axes.facecolor: e5e5e5
+axes.linewidth: 1.2
+axes.titlesize: 12
+axes.titleweight: bold
+axes.labelsize: 12
+axes.labelweight: bold
+#esconde ou exibe as linhas que limitam o grafico acima e a esquerda
+axes.spines.top: True
+axes.spines.right: True
+#define as cores dentro do grafico
+axes.prop_cycle: cycler('color', ['673699', 'E6BC7E', 'A868E6', '50E682', '3D995C', '56B4E9'])
+axes.formatter.use_mathtext: True
+#muda a distancia que começa a plotagem
+axes.xmargin: 0.0
+axes.ymargin: 0.1
+
+### Ajustando o grid
+grid.color : black
+grid.linestyle : -
+grid.linewidth : 0.5
+
+### Legends
+legend.fancybox : True
+legend.frameon : True
+legend.edgecolor : blue
+legend.facecolor : red
+legend.loc : upper right
+savefig.dpi: 240
+savefig.transparent: False
+
+
+# imagem
+
+image.cmap: cividis
