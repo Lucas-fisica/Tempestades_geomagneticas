@@ -7,4 +7,4 @@ O trabalho em questão foi desenvolvido durante o andamento do projeto de inicia
 
 ## Como usar
 
-De inicio, rode os scripts que são responsaveis por obter os dados dos indices
+De inicio, rode os scripts que são responsaveis por obter os dados dos indices(Sript raspagem_dst_kp.ipynb, raspagem_maiores_tempestades.ipynb). Em seguida, rode os arquivos limpa kp e limpa dst. Rode o arqg selecao.ipynb. Ao fim, rode o arquivo plot.ipynb, afim de obter os graficos. 
